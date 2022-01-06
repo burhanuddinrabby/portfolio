@@ -29,7 +29,7 @@ body{
     margin-top: -30px;
     font-weight: 600;
 }
-.mission-spirit .columns .explore-btn{
+.explore-btn{
     width: 120px;
     color:white;
     text-decoration: none;
@@ -89,4 +89,13 @@ body{
     height: 86%;
     margin: 0px 30px;
     width: 85%;
+}
+.mission-limits .columns h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.mission-texts{
+    margin: 35px 0;
+    font-size: 22px;
+    font-weight: 500;
 }
