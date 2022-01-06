@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif; */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    margin: auto;
+    max-width: 1300px;
+}
+.mission-spirit{
+    display: flex;
+}
+.container .columns{
+    width:650px;
+    padding: 50px;
+}
+.mission-spirit .columns h1{
+    font-size: 70px;
+    border-left: 5px solid rgb(236, 104, 43);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.mission-motivation{
+    margin-bottom: 30px;
+    margin-top: -30px;
+    font-weight: 600;
+}
+.mission-spirit .columns .explore-btn{
+    width: 120px;
+    color:white;
+    text-decoration: none;
+    background-color: rgb(235, 74, 26);
+    padding:10px 30px;
+    border:1px solid rgb(235, 74, 26);
+    border-radius: 5px;
+}
+.mission-spirit .columns h3{
+    margin-top: 30px;
+}
+.mission-spirit .columns h3 a{
+    text-decoration: none;
+}
+.mission-spirit .columns img{
+    height: 86%;
+    margin: 0px 30px;
+    width: 85%;
+}
+.orange-c{
+    color: orange;
+}
+.mission-details h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+}
+.mission-details .card-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.mission-details .card-container .cards{
+    width: 340px;
+    padding: 25px;
+    margin-right: 40px;
+}
+.mission-details .card-container .cards img{
+    height: 200px;
+    width: 200px;
+}
+.mission-card{
+    background-color: rgba(176, 216, 203, 0.486);
+    border-radius: 30px;
+}
+.vission-card{
+    background-color: rgba(216, 176, 179, 0.377);
+    border-radius: 30px;
+}
+.goal-card{
+    background-color: rgba(205, 216, 176, 0.377);
+    border-radius: 30px;
+}
