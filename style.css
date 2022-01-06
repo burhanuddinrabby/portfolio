@@ -60,13 +60,14 @@ body{
 .mission-details .card-container{
     display: flex;
     margin-bottom: 100px;
+    margin-left: 40px;
 }
-.mission-details .card-container .cards{
+.card-container .cards{
     width: 340px;
     padding: 25px;
     margin-right: 40px;
 }
-.mission-details .card-container .cards img{
+.card-container .cards img{
     height: 200px;
     width: 200px;
 }
@@ -98,4 +99,22 @@ body{
     margin: 35px 0;
     font-size: 22px;
     font-weight: 500;
+}
+.community{
+    display: flex;
+
+}
+.community .columns h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.communit-info{
+    margin: 35px 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+.community .columns img{
+    height: 86%;
+    margin: 0px 30px;
+    width: 85%;
 }
