@@ -82,3 +82,11 @@ body{
     background-color: rgba(205, 216, 176, 0.377);
     border-radius: 30px;
 }
+.mission-limits{
+    display: flex;
+}
+.mission-limits .columns img{
+    height: 86%;
+    margin: 0px 30px;
+    width: 85%;
+}
